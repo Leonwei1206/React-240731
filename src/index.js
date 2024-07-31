@@ -12,13 +12,13 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   
-    <Router>
+    <HashRouter>
      <Routes>
         <Route path="/" element={<App />} />
         <Route path="/introduce" element={<Introduce />} />
         <Route path="/Topics" element={<Topics />} />
       </Routes>
-    </Router>
+     </HashRouter>
      
 );
 
